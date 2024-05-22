@@ -13,6 +13,14 @@
         .page.active {
             display: block;
         }
+        .carousel-caption {
+      z-index: 2;
+      position: absolute;
+      top: 55%;
+      left: 18%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
     </style>
 </head>
 <body>
@@ -37,7 +45,10 @@
         </div>
       </nav>
     <main>
-        <img src="asset/img/manasik.jpg" class="d-block w-100" style="color: #00763a4d" alt="..." />
+        <img src="asset/img/manasik.jpg" class="d-block w-100 mt-5" style="color: #00763a4d" alt="..." />
+        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <h2>Berita Hari Ini</h2>
+          </div>
 
         <section id="thumbnail">
             <div class="card bg-dark text-white">
