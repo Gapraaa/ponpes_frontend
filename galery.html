@@ -17,6 +17,14 @@
         .page.active {
             display: block;
         }
+        .carousel-caption {
+      z-index: 2;
+      position: absolute;
+      top: 55%;
+      left: 10%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
     </style>
 </head>
 
@@ -43,6 +51,9 @@
     </nav>
     <main>
         <img src="asset/img/gallery1.jpg" class="d-block w-100 mt-5" style="color: #00763a4d" alt="..." />
+        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+          <h2>Gallery</h2>
+        </div>
 
         <section class="container" id="Dailynews">
             <div class="page active" id="page-1">
